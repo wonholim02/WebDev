@@ -1,4 +1,4 @@
-![](https://placehold.it/950x90/#0000FF/fff?text=Welcome!)
+![](https://placehold.it/950x90/0000FF/fff?text=Welcome!)
 # Coding **Projects / Programs**
 ### This project contains the web page codes that I wrote with several programming languages. 
 
