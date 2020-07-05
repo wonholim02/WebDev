@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Rubik" rel="stylesheet">
+    <title>HTML Forms</title>
+  </head>
+  <body>
+    <section id="overlay">
+    <img src="https://s3.amazonaws.com/codecademy-content/courses/web-101/unit-6/htmlcss1-img_burger-logo.svg" alt="Davie's Burgers Logo" id="logo">
+    <hr>
+      <!--Add your code below-->
+    <form action="./practice.hrml" method="Post">
+      <h1>Login to start creating a burger!</h1>
+      <p>Today's burger: Premium cheese burger</p>
+      <label for ="go">What food do you want?</label>
+      <input type = "text" name = "username" value = "Davie" id="go">
+
+      </section>
+      <section class="cheesy">
+        <span>Would you like to add cheese?</span>
+        <br>
+        <input type="radio" id="yes" name="cheese" value="yes">
+        <label for = "yes">Yes</label>
+
+        <input type="radio" id="no" name="cheese" value="no">
+        <label for ="no">No</label>
+      </section>
+
+      <section class ="bun-type">
+        <label for ="bun">What type of bun would you like?</label>
+        <select id="bun" name="bun">
+          <option value="sesame">Sesame</options>
+          <option value="potato">Potato</options>
+          <option value="Sweet potato">Sweet Potato</options>
+        </select>
+      </section>
+
+      <hr>
+      <section class="extra-info">
+        <label for="extra">Anything else you want to add</label>
+        <br>
+        <textarea id="extra" name="extra" rows="3" cols="40">Hello!</textarea>
+      </section>
+    </form>
+  </body>
+</html>
