@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+	<section class = "container">
+  	<img src = "https://ksassets.timeincuk.net/wp/uploads/sites/55/2016/12/POTY_Pikachu_3.jpg" id= "myImage">
+  	<p onclick="blooming()">Advanced CS</p>
+	</section>
+  <script>
+		function blooming(){
+			var image = document.getElementById('myImage');
+			if(image.src.match("normal")){
+				image.src = "flower.png"
+			}else{
+				image.src = "normal.png"
+			}
+		}
+  </script>
+</body>
+</html>
